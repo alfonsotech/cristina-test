@@ -5,7 +5,7 @@ const projects = [
   {
    title: "Real estate agency",
    description: "Webpage created with Wordpress for a real estate agency.",
-   images1: [idosnaosd, inofdnaso, sainfoasdn]
+   images1: ['image1', 'image2', 'image3']
   },{
    title: "Film Festival",
    description: "Webpage created with html5 and css3 using bootstrap for an outdoor film festival."
@@ -26,8 +26,8 @@ class Projects extends Component {
              })}
 
              {/* <Carousel>
-               {for() {
-                 // carousel item
+               {for(var i =0; i< projects.length; i++) {
+                 // add a carousel item: {this.props.data.img[i]}
                }}
              </Carousel> */}
 
